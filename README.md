@@ -42,6 +42,10 @@ Aquí algunas capturas de pantalla de la aplicación:
 ![Inicio](https://github.com/gperzal/Desafio-Traer-posts/blob/master/assets/img/ss1.png "Pantalla Principal")
 ![Post API](https://github.com/gperzal/Desafio-Traer-posts/blob/master/assets/img/ss2.png "Cargar Post de API")
 
+## Explicacion del Codigo
+
+![Código](https://github.com/gperzal/Desafio-Traer-posts/blob/master/assets/img/code.png "Comentarios")
+
 ## Contacto
 
 Si tienes alguna pregunta o deseas contribuir al proyecto, puedes contactarme a través de:
