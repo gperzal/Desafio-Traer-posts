@@ -31,12 +31,16 @@ Este proyecto es una aplicación web simple que consulta y muestra posts de una 
 - `scripts.js`: Lógica de JavaScript para realizar las consultas a la API y manipular el DOM.
 - `README.md`: Documentación del proyecto.
 
+## Demostración en Vivo
+
+Puedes ver una versión en vivo de la aplicación en [GitHub Pages](https://gperzal.github.io/Desafio-Traer-posts/).
+
 ## Capturas
 
 Aquí algunas capturas de pantalla de la aplicación:
 
-![Inicio](https://github.com/gperzal/Desafio-Traer-posts/blob/main/assets/img/ss1.png "Pantalla Principal")
-![Post API](https://github.com/gperzal/Desafio-Traer-posts/blob/main/assets/img/ss2.png "Cargar Post de API")
+![Inicio](https://github.com/gperzal/Desafio-Traer-posts/blob/master/assets/img/ss1.png "Pantalla Principal")
+![Post API](https://github.com/gperzal/Desafio-Traer-posts/blob/master/assets/img/ss2.png "Cargar Post de API")
 
 ## Contacto
 
