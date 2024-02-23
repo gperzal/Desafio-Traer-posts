@@ -1,0 +1,98 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/bg.jpg);
+}
+
+#post-data {
+    list-style-type: none; /* Esto elimina los puntos que añade por defecto la lista desordenada */
+}
+
+#post-data li {
+    background-color: #f8f9fa; /* Un color de fondo suave para cada post */
+    border: 1px solid #ddd; /* Un borde sutil para resaltar cada post */
+    padding: 20px; /* Espaciado interno para no tocar los bordes */
+    margin-bottom: 10px; /* Espacio entre posts */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#post-data li b {
+    display: block; /* Hace que el título sea un bloque para que el texto del cuerpo comience debajo */
+    margin-bottom: .5rem; /* Añade espacio entre el título y el cuerpo del post */
+    color: #0056b3; /* Color para el título del post */
+}
+
+#post-data li p {
+    margin: 0; /* Asegura que no haya margen adicional en los párrafos */
+}
+
+
+/* Efecto titulo */
+
+
+p {
+    text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(0, 0, 0, 0.25);
+	border-width: 4px 0;
+
+
+span {
+   
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(29, 2, 2, 0.5);
+
+/* Clip Background Image */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+
+
+/* CON ESTO SE CUMPLEA EL DESAFIO PERO LE PUSIMO VOLUNTAD DE DARLE ESTILO
+
+#post-data {
+    padding: 0; 
+    width: 48%; 
+    text-align: left; 
+  }
+
+span{
+    padding-left: 20px; 
+    display: block; 
+}
+
+li{
+    padding-bottom: 20px; 
+}   
+
+*/
